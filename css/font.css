@@ -12,6 +12,13 @@
     font-style: normal;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    /* added to ensure icons display correctly */
+    display: inline-block;
+}
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+    display: inline-block;
 }
 
 .icon-fenlei:before {

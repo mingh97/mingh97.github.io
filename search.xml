@@ -1,22 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Hello World</title>
-    <url>/2024/10/13/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+    <title>笑笑猫的由来</title>
+    <url>/2025/03/30/0330-md/</url>
+    <content><![CDATA[<h2 id="初步搭了一下blog的主题"><a href="#初步搭了一下blog的主题" class="headerlink" title="初步搭了一下blog的主题"></a>初步搭了一下blog的主题</h2><p>博客是去年搭的，但感觉自己没有技术输出，遂放弃。</p>
+<p>昨天百无聊赖，看到集市上有佬分享博客，兴之所至把这个博客捞出来。</p>
+<p>改了id，换了主题，把它作为一个“树洞类”的博客也不错</p>
+<p>记录一些日常随想，尝试一些“三分钟热度”，也有可能分享一些学习笔记，兴之所至，乘兴而来！</p>
+<h2 id="笑笑猫的id"><a href="#笑笑猫的id" class="headerlink" title="笑笑猫的id"></a>笑笑猫的id</h2><p>为什么叫“笑笑猫”，不知道</p>
+<p>起名字向来随意，想起的时候想到啥就是啥</p>
+<p>当然，也想和学习工作做一个切割</p>
+<p>在体育场往西边的天空看，总是可以看到一两颗很明亮的星星</p>
+<p>无论多么浮躁，看到西边的星星，心都会平静下来</p>
+<p>漫天繁星，但我总觉得星星是孤独的</p>
+<p>所以博客id叫“笑笑猫”吧，一想到心情就很好，很想写博客hhh</p>
+<h2 id="树洞时间"><a href="#树洞时间" class="headerlink" title="树洞时间"></a>树洞时间</h2><p>编辑了很多，但剪不断、理还乱，算了等下次想明白再写吧，今天不走心了</p>
+<p>竹杖芒鞋轻胜马，谁怕，一蓑烟雨任平生</p>
+<h2 id="碎碎念"><a href="#碎碎念" class="headerlink" title="碎碎念"></a>碎碎念</h2><p>昨天搭了博客，今天和室友们出去团建，明天尊嘟要学习了（不然尊嘟完蛋了）</p>
+<p>还可以水一两篇博客，感觉还不错</p>
+<p>两天作息都很乱，下周调一下作息吧，不拘囿于几点睡</p>
+<p>昨天看了“科幻世界”，开篇就是一个关于数字生命的小说，最后的反转还挺有意思的</p>
+<p>自从周深的《蜃楼》了解数字生命，就会想象数字生命，但的确描绘不出来</p>
+<p>昨天看完《边水往事》，演员都演的很贴，虽然早知道拓子锅会死，但还是心痛</p>
+<p>– 看了一下博客排版，能看，但还是好丑，下次无聊再优化吧</p>
 ]]></content>
+      <tags>
+        <tag>生活小记</tag>
+      </tags>
   </entry>
   <entry>
     <title>笑笑猫的由来</title>
@@ -47,31 +57,21 @@
       </tags>
   </entry>
   <entry>
-    <title>笑笑猫的由来</title>
-    <url>/2025/03/30/0330-md/</url>
-    <content><![CDATA[<h2 id="初步搭了一下blog的主题"><a href="#初步搭了一下blog的主题" class="headerlink" title="初步搭了一下blog的主题"></a>初步搭了一下blog的主题</h2><p>博客是去年搭的，但感觉自己没有技术输出，遂放弃。</p>
-<p>昨天百无聊赖，看到集市上有佬分享博客，兴之所至把这个博客捞出来。</p>
-<p>改了id，换了主题，把它作为一个“树洞类”的博客也不错</p>
-<p>记录一些日常随想，尝试一些“三分钟热度”，也有可能分享一些学习笔记，兴之所至，乘兴而来！</p>
-<h2 id="笑笑猫的id"><a href="#笑笑猫的id" class="headerlink" title="笑笑猫的id"></a>笑笑猫的id</h2><p>为什么叫“笑笑猫”，不知道</p>
-<p>起名字向来随意，想起的时候想到啥就是啥</p>
-<p>当然，也想和学习工作做一个切割</p>
-<p>在体育场往西边的天空看，总是可以看到一两颗很明亮的星星</p>
-<p>无论多么浮躁，看到西边的星星，心都会平静下来</p>
-<p>漫天繁星，但我总觉得星星是孤独的</p>
-<p>所以博客id叫“笑笑猫”吧，一想到心情就很好，很想写博客hhh</p>
-<h2 id="树洞时间"><a href="#树洞时间" class="headerlink" title="树洞时间"></a>树洞时间</h2><p>编辑了很多，但剪不断、理还乱，算了等下次想明白再写吧，今天不走心了</p>
-<p>竹杖芒鞋轻胜马，谁怕，一蓑烟雨任平生</p>
-<h2 id="碎碎念"><a href="#碎碎念" class="headerlink" title="碎碎念"></a>碎碎念</h2><p>昨天搭了博客，今天和室友们出去团建，明天尊嘟要学习了（不然尊嘟完蛋了）</p>
-<p>还可以水一两篇博客，感觉还不错</p>
-<p>两天作息都很乱，下周调一下作息吧，不拘囿于几点睡</p>
-<p>昨天看了“科幻世界”，开篇就是一个关于数字生命的小说，最后的反转还挺有意思的</p>
-<p>自从周深的《蜃楼》了解数字生命，就会想象数字生命，但的确描绘不出来</p>
-<p>昨天看完《边水往事》，演员都演的很贴，虽然早知道拓子锅会死，但还是心痛</p>
-<p>– 看了一下博客排版，能看，但还是好丑，下次无聊再优化吧</p>
+    <title>Hello World</title>
+    <url>/2024/10/13/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
 ]]></content>
-      <tags>
-        <tag>生活小记</tag>
-      </tags>
   </entry>
 </search>

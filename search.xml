@@ -46,4 +46,36 @@
         <tag>生活小记</tag>
       </tags>
   </entry>
+  <entry>
+    <title>王道操作系统网课部分笔记</title>
+    <url>/2025/04/02/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/</url>
+    <content><![CDATA[<p>王道课程通俗易懂，但与学校课程相差较大，可能会挑选小部分和课程重合的听</p>
+<p>这篇是之前整理的，随缘更新啦~  后续尽量整合苏老师课程+课本的笔记</p>
+<h1 id="进程与线程"><a href="#进程与线程" class="headerlink" title="进程与线程"></a>进程与线程</h1><p>程序：静态的，存放在磁盘里的可执行文件(.exe)，指令集合</p>
+<p>进程：动态的，程序的一次执行过程，同一个程序可对应多个进程</p>
+<h2 id="1-进程的组成：PCB、程序段、数据段"><a href="#1-进程的组成：PCB、程序段、数据段" class="headerlink" title="1. 进程的组成：PCB、程序段、数据段"></a>1. 进程的组成：PCB、程序段、数据段</h2><p>PCB是给操作系统用的，保存了操作系统对进程进行管理工作所需全部信息</p>
+<p>数据段和程序段是进程自己用的，与进程运行逻辑相关</p>
+<h3 id="PCB-Process-Control-Block，进程控制块"><a href="#PCB-Process-Control-Block，进程控制块" class="headerlink" title="PCB (Process Control Block，进程控制块)"></a>PCB (Process Control Block，进程控制块)</h3><p>任务管理器如图所示</p>
+<p><img src="D:\Blog\hexo-starter\source_posts\操作系统-md\task_mag.png" alt="9ce4ca04019b4e97c20076daac72b86"></p>
+<p>操作系统要记录每一个进程的PID，UID，分配了哪些资源(内存、IO设备等)，运行状态（CPU使用时间、磁盘使用情况等），这些信息都被保存在PCB这一数据结构中</p>
+<p>PCB是进程块存在的唯一标志，PCB与进程一一对应，进程的创建伴随着PCB的分配，进程终止时，其PCB会被操作系统回收</p>
+<p>操作系统对进程进行管理工作所需信息都在PCB中</p>
+<h3 id="程序段、数据段"><a href="#程序段、数据段" class="headerlink" title="程序段、数据段"></a>程序段、数据段</h3><p><img src="C:\Users\立牌坊、\AppData\Roaming\Typora\typora-user-images\image-20250331231613772.png" alt="image-20250331231613772"></p>
+<p>程序代码会编译为二进制指令，以可执行文件（如.exe）储存在磁盘中</p>
+<p>程序运行前，操作系统建立进程：创建对应的PCB，从磁盘中读入可执行文件到内存中（称之为程序段）；</p>
+<p>进程的运行过程就是CPU取指执行的过程，也就是运行程序段的过程，而数据段包含运行过程中产生的数据（如变量）；所以说程序段和数据段与进程自身相关</p>
+<p>一个进程实体（也称进程映像，图中灰色部分）由PCB，程序段，数据段三部分构成</p>
+<p>进程是系统进行资源分配和调度的独立单位</p>
+<h2 id="2-进程的创建和转换"><a href="#2-进程的创建和转换" class="headerlink" title="2. 进程的创建和转换"></a>2. 进程的创建和转换</h2><p><img src="C:\Users\立牌坊、\AppData\Roaming\Typora\typora-user-images\image-20250331233457527.png" alt="image-20250331233457527"></p>
+<p>初始化过程：进程被创建，分配资源、初始化PCB；当进程创建完成，进入“就绪状态”</p>
+<p>就绪态：已具备所有运行条件，只缺CPU，暂时不能运行</p>
+<p>运行态：当进程正在CPU运行</p>
+<p>阻塞态：进程运行过程中，可能会请求等待某事件发生(如等待IO输入，其他进程相应等)，在这个事件发生前无法进程无法仅需往下执行。这时操作系统让其进入“阻塞态”，下CPU；当外部事件完成，重新进入就绪态</p>
+<p>终止态：进程执行exit系统调用，请求操作系统终止进程，进程进入“终止态”，操作系统让该进程下cpu，回收内存等资源，回收PCB</p>
+]]></content>
+      <tags>
+        <tag>笔记</tag>
+        <tag>操作系统</tag>
+      </tags>
+  </entry>
 </search>

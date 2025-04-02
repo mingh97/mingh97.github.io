@@ -56,7 +56,7 @@
 <h2 id="1-进程的组成：PCB、程序段、数据段"><a href="#1-进程的组成：PCB、程序段、数据段" class="headerlink" title="1. 进程的组成：PCB、程序段、数据段"></a>1. 进程的组成：PCB、程序段、数据段</h2><p>PCB是给操作系统用的，保存了操作系统对进程进行管理工作所需全部信息</p>
 <p>数据段和程序段是进程自己用的，与进程运行逻辑相关</p>
 <h3 id="PCB-Process-Control-Block，进程控制块"><a href="#PCB-Process-Control-Block，进程控制块" class="headerlink" title="PCB (Process Control Block，进程控制块)"></a>PCB (Process Control Block，进程控制块)</h3><p>任务管理器如图所示</p>
-<p><img src="/.com//%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F-md%5Ctask_mag.png" alt="任务管理器详细信息"></p>
+<p><img src="/.com//task_mag.png" alt="任务管理器详细信息"></p>
 <p>操作系统要记录每一个进程的PID，UID，分配了哪些资源(内存、IO设备等)，运行状态（CPU使用时间、磁盘使用情况等），这些信息都被保存在PCB这一数据结构中</p>
 <p>PCB是进程块存在的唯一标志，PCB与进程一一对应，进程的创建伴随着PCB的分配，进程终止时，其PCB会被操作系统回收</p>
 <p>操作系统对进程进行管理工作所需信息都在PCB中</p>

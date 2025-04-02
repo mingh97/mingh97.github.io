@@ -1,81 +1,60 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search>
-  <entry>
-    <title>笑笑猫的由来</title>
-    <url>/2025/03/30/blog/</url>
-    <content><![CDATA[<h2 id="初步搭了一下blog的主题"><a href="#初步搭了一下blog的主题" class="headerlink" title="初步搭了一下blog的主题"></a>初步搭了一下blog的主题</h2><p>博客是去年搭的，但感觉自己没有技术输出，遂放弃。</p>
-<p>昨天百无聊赖，看到集市上有佬分享博客，兴之所至把这个博客捞出来。</p>
-<p>改了id，换了主题，把它作为一个“树洞类”的博客也不错</p>
-<p>记录一些日常随想，尝试一些“三分钟热度”，也有可能分享一些学习笔记，兴之所至，乘兴而来！</p>
-<h2 id="笑笑猫的id"><a href="#笑笑猫的id" class="headerlink" title="笑笑猫的id"></a>笑笑猫的id</h2><p>为什么叫“笑笑猫”，不知道</p>
-<p>起名字向来随意，想起的时候想到啥就是啥</p>
-<p>当然，也想和学习工作做一个切割</p>
-<p>在体育场往西边的天空看，总是可以看到一两颗很明亮的星星</p>
-<p>无论多么浮躁，看到西边的星星，心都会平静下来</p>
-<p>漫天繁星，但我总觉得星星是孤独的</p>
-<p>所以博客id叫“笑笑猫”吧，一想到心情就很好，很想写博客hhh</p>
-<h2 id="树洞时间"><a href="#树洞时间" class="headerlink" title="树洞时间"></a>树洞时间</h2><p>编辑了很多，但剪不断、理还乱，算了等下次想明白再写吧，今天不走心了</p>
-<p>“竹杖芒鞋轻胜马，谁怕，一蓑烟雨任平生”  真的很喜欢</p>
-<h2 id="碎碎念"><a href="#碎碎念" class="headerlink" title="碎碎念"></a>碎碎念</h2><p>昨天搭了博客，今天和室友们出去团建，明天尊嘟要学习了（不然尊嘟完蛋了）</p>
-<p>还可以水一两篇博客，感觉还不错</p>
-<p>两天作息都很乱，下周调一下作息吧，不拘囿于几点睡</p>
-<p>昨天看了“科幻世界”，开篇就是一个关于数字生命的小说，最后的反转还挺有意思的</p>
-<p>自从周深的《蜃楼》了解数字生命，就会想象数字生命，但的确描绘不出来</p>
-<p>昨天看完《边水往事》，演员都演的很贴，虽然早知道拓子锅会死，但还是心痛</p>
-<p>– 看了一下博客排版，能看，但还是好丑，下次无聊再优化吧</p>
-]]></content>
-      <tags>
-        <tag>生活小记</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>王道操作系统网课部分笔记</title>
-    <url>/2025/04/02/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/</url>
-    <content><![CDATA[<p>王道课程通俗易懂，但与学校课程相差较大，可能会挑选小部分和课程重合的听</p>
-<p>这篇是之前整理的，随缘更新啦~  后续尽量整合苏老师课程+课本的笔记</p>
-<h1 id="进程与线程"><a href="#进程与线程" class="headerlink" title="进程与线程"></a>进程与线程</h1><p>程序：静态的，存放在磁盘里的可执行文件(.exe)，指令集合</p>
-<p>进程：动态的，程序的一次执行过程，同一个程序可对应多个进程</p>
-<h2 id="1-进程的组成：PCB、程序段、数据段"><a href="#1-进程的组成：PCB、程序段、数据段" class="headerlink" title="1. 进程的组成：PCB、程序段、数据段"></a>1. 进程的组成：PCB、程序段、数据段</h2><p>PCB是给操作系统用的，保存了操作系统对进程进行管理工作所需全部信息</p>
-<p>数据段和程序段是进程自己用的，与进程运行逻辑相关</p>
-<h3 id="PCB-Process-Control-Block，进程控制块"><a href="#PCB-Process-Control-Block，进程控制块" class="headerlink" title="PCB (Process Control Block，进程控制块)"></a>PCB (Process Control Block，进程控制块)</h3><p>任务管理器如图所示</p>
-<p><img src="/.com//task_mag.png" alt="任务管理器详细信息"></p>
-<p>操作系统要记录每一个进程的PID，UID，分配了哪些资源(内存、IO设备等)，运行状态（CPU使用时间、磁盘使用情况等），这些信息都被保存在PCB这一数据结构中</p>
-<p>PCB是进程块存在的唯一标志，PCB与进程一一对应，进程的创建伴随着PCB的分配，进程终止时，其PCB会被操作系统回收</p>
-<p>操作系统对进程进行管理工作所需信息都在PCB中</p>
-<h3 id="程序段、数据段"><a href="#程序段、数据段" class="headerlink" title="程序段、数据段"></a>程序段、数据段</h3><p><img src="/.com//%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F-md%5CPCB.png" alt="内存块中的PCB"></p>
-<p>程序代码会编译为二进制指令，以可执行文件（如.exe）储存在磁盘中</p>
-<p>程序运行前，操作系统建立进程：创建对应的PCB，从磁盘中读入可执行文件到内存中（称之为程序段）；</p>
-<p>进程的运行过程就是CPU取指执行的过程，也就是运行程序段的过程，而数据段包含运行过程中产生的数据（如变量）；所以说程序段和数据段与进程自身相关</p>
-<p>一个进程实体（也称进程映像，图中灰色部分）由PCB，程序段，数据段三部分构成</p>
-<p>进程是系统进行资源分配和调度的独立单位</p>
-<h2 id="2-进程的创建和转换"><a href="#2-进程的创建和转换" class="headerlink" title="2. 进程的创建和转换"></a>2. 进程的创建和转换</h2><p><img src="/.com//%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F-md%5Cprocess.png" alt="进程状态图像"></p>
-<p>初始化过程：进程被创建，分配资源、初始化PCB；当进程创建完成，进入“就绪状态”</p>
-<p>就绪态：已具备所有运行条件，只缺CPU，暂时不能运行</p>
-<p>运行态：当进程正在CPU运行</p>
-<p>阻塞态：进程运行过程中，可能会请求等待某事件发生(如等待IO输入，其他进程相应等)，在这个事件发生前无法进程无法仅需往下执行。这时操作系统让其进入“阻塞态”，下CPU；当外部事件完成，重新进入就绪态</p>
-<p>终止态：进程执行exit系统调用，请求操作系统终止进程，进程进入“终止态”，操作系统让该进程下cpu，回收内存等资源，回收PCB</p>
-]]></content>
-      <tags>
-        <tag>笔记</tag>
-        <tag>操作系统</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Hello World</title>
-    <url>/2024/10/13/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-]]></content>
-  </entry>
+<search> 
+  
+  
+    
+    <entry>
+      <title>王道操作系统网课部分笔记</title>
+      <link href="/2025/04/02/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/"/>
+      <url>/2025/04/02/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/</url>
+      
+        <content type="html"><![CDATA[<p>王道课程通俗易懂，但与学校课程相差较大，可能会挑选小部分和课程重合的听</p><p>这篇是之前整理的，随缘更新啦~  后续尽量整合苏老师课程+课本的笔记</p><h1 id="进程与线程"><a href="#进程与线程" class="headerlink" title="进程与线程"></a>进程与线程</h1><p>程序：静态的，存放在磁盘里的可执行文件(.exe)，指令集合</p><p>进程：动态的，程序的一次执行过程，同一个程序可对应多个进程</p><h2 id="1-进程的组成：PCB、程序段、数据段"><a href="#1-进程的组成：PCB、程序段、数据段" class="headerlink" title="1. 进程的组成：PCB、程序段、数据段"></a>1. 进程的组成：PCB、程序段、数据段</h2><p>PCB是给操作系统用的，保存了操作系统对进程进行管理工作所需全部信息</p><p>数据段和程序段是进程自己用的，与进程运行逻辑相关</p><h3 id="PCB-Process-Control-Block，进程控制块"><a href="#PCB-Process-Control-Block，进程控制块" class="headerlink" title="PCB (Process Control Block，进程控制块)"></a>PCB (Process Control Block，进程控制块)</h3><p>任务管理器如图所示</p><p><img src="/images/task_mag.png" alt="任务管理器详细信息"></p><p>操作系统要记录每一个进程的PID，UID，分配了哪些资源(内存、IO设备等)，运行状态（CPU使用时间、磁盘使用情况等），这些信息都被保存在PCB这一数据结构中</p><p>PCB是进程块存在的唯一标志，PCB与进程一一对应，进程的创建伴随着PCB的分配，进程终止时，其PCB会被操作系统回收</p><p>操作系统对进程进行管理工作所需信息都在PCB中</p><h3 id="程序段、数据段"><a href="#程序段、数据段" class="headerlink" title="程序段、数据段"></a>程序段、数据段</h3><p><img src="/.com//%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F-md%5CPCB.png" alt="内存块中的PCB"></p><p>程序代码会编译为二进制指令，以可执行文件（如.exe）储存在磁盘中</p><p>程序运行前，操作系统建立进程：创建对应的PCB，从磁盘中读入可执行文件到内存中（称之为程序段）；</p><p>进程的运行过程就是CPU取指执行的过程，也就是运行程序段的过程，而数据段包含运行过程中产生的数据（如变量）；所以说程序段和数据段与进程自身相关</p><p>一个进程实体（也称进程映像，图中灰色部分）由PCB，程序段，数据段三部分构成</p><p>进程是系统进行资源分配和调度的独立单位</p><h2 id="2-进程的创建和转换"><a href="#2-进程的创建和转换" class="headerlink" title="2. 进程的创建和转换"></a>2. 进程的创建和转换</h2><p><img src="/.com//%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F-md%5Cprocess.png" alt="进程状态图像"></p><p>初始化过程：进程被创建，分配资源、初始化PCB；当进程创建完成，进入“就绪状态”</p><p>就绪态：已具备所有运行条件，只缺CPU，暂时不能运行</p><p>运行态：当进程正在CPU运行</p><p>阻塞态：进程运行过程中，可能会请求等待某事件发生(如等待IO输入，其他进程相应等)，在这个事件发生前无法进程无法仅需往下执行。这时操作系统让其进入“阻塞态”，下CPU；当外部事件完成，重新进入就绪态</p><p>终止态：进程执行exit系统调用，请求操作系统终止进程，进程进入“终止态”，操作系统让该进程下cpu，回收内存等资源，回收PCB</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 笔记 </tag>
+            
+            <tag> 操作系统 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>笑笑猫的由来</title>
+      <link href="/2025/03/30/blog/"/>
+      <url>/2025/03/30/blog/</url>
+      
+        <content type="html"><![CDATA[<h2 id="初步搭了一下blog的主题"><a href="#初步搭了一下blog的主题" class="headerlink" title="初步搭了一下blog的主题"></a>初步搭了一下blog的主题</h2><p>博客是去年搭的，但感觉自己没有技术输出，遂放弃。</p><p>昨天百无聊赖，看到集市上有佬分享博客，兴之所至把这个博客捞出来。</p><p>改了id，换了主题，把它作为一个“树洞类”的博客也不错</p><p>记录一些日常随想，尝试一些“三分钟热度”，也有可能分享一些学习笔记，兴之所至，乘兴而来！</p><h2 id="笑笑猫的id"><a href="#笑笑猫的id" class="headerlink" title="笑笑猫的id"></a>笑笑猫的id</h2><p>为什么叫“笑笑猫”，不知道</p><p>起名字向来随意，想起的时候想到啥就是啥</p><p>当然，也想和学习工作做一个切割</p><p>在体育场往西边的天空看，总是可以看到一两颗很明亮的星星</p><p>无论多么浮躁，看到西边的星星，心都会平静下来</p><p>漫天繁星，但我总觉得星星是孤独的</p><p>所以博客id叫“笑笑猫”吧，一想到心情就很好，很想写博客hhh</p><h2 id="树洞时间"><a href="#树洞时间" class="headerlink" title="树洞时间"></a>树洞时间</h2><p>编辑了很多，但剪不断、理还乱，算了等下次想明白再写吧，今天不走心了</p><p>“竹杖芒鞋轻胜马，谁怕，一蓑烟雨任平生”  真的很喜欢</p><h2 id="碎碎念"><a href="#碎碎念" class="headerlink" title="碎碎念"></a>碎碎念</h2><p>昨天搭了博客，今天和室友们出去团建，明天尊嘟要学习了（不然尊嘟完蛋了）</p><p>还可以水一两篇博客，感觉还不错</p><p>两天作息都很乱，下周调一下作息吧，不拘囿于几点睡</p><p>昨天看了“科幻世界”，开篇就是一个关于数字生命的小说，最后的反转还挺有意思的</p><p>自从周深的《蜃楼》了解数字生命，就会想象数字生命，但的确描绘不出来</p><p>昨天看完《边水往事》，演员都演的很贴，虽然早知道拓子锅会死，但还是心痛</p><p>– 看了一下博客排版，能看，但还是好丑，下次无聊再优化吧</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 生活小记 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Hello World</title>
+      <link href="/2024/10/13/hello-world/"/>
+      <url>/2024/10/13/hello-world/</url>
+      
+        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+  
+  
 </search>

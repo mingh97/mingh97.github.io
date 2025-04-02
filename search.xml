@@ -53,7 +53,7 @@
 <p>这篇是之前整理的，随缘更新啦~  后续尽量整合苏老师课程+课本的笔记</p>
 <h1 id="进程与线程"><a href="#进程与线程" class="headerlink" title="进程与线程"></a>进程与线程</h1><p>程序：静态的，存放在磁盘里的可执行文件(.exe)，指令集合</p>
 <p>进程：动态的，程序的一次执行过程，同一个程序可对应多个进程</p>
-<h2 id="1-进程的组成：PCB、程序段、数据段"><a href="#1-进程的组成：PCB、程序段、数据段" class="headerlink" title="1. 进程的组成：PCB、程序段、数据段"></a>1. 进程的组成：PCB、程序段、数据段</h2><p>PCB是给操作系统用的，保存了操作系统对进程进行管理工作所需全部信息</p>
+<h2 id="进程的组成：PCB、程序段、数据段"><a href="#进程的组成：PCB、程序段、数据段" class="headerlink" title="进程的组成：PCB、程序段、数据段"></a>进程的组成：PCB、程序段、数据段</h2><p>PCB是给操作系统用的，保存了操作系统对进程进行管理工作所需全部信息</p>
 <p>数据段和程序段是进程自己用的，与进程运行逻辑相关</p>
 <h3 id="PCB-Process-Control-Block，进程控制块"><a href="#PCB-Process-Control-Block，进程控制块" class="headerlink" title="PCB (Process Control Block，进程控制块)"></a>PCB (Process Control Block，进程控制块)</h3><p>任务管理器如图所示</p>
 <p><img src="/images/task_mag.png" alt="任务管理器详细信息"></p>
@@ -66,7 +66,7 @@
 <p>进程的运行过程就是CPU取指执行的过程，也就是运行程序段的过程，而数据段包含运行过程中产生的数据（如变量）；所以说程序段和数据段与进程自身相关</p>
 <p>一个进程实体（也称进程映像，图中灰色部分）由PCB，程序段，数据段三部分构成</p>
 <p>进程是系统进行资源分配和调度的独立单位</p>
-<h2 id="2-进程的创建和转换"><a href="#2-进程的创建和转换" class="headerlink" title="2. 进程的创建和转换"></a>2. 进程的创建和转换</h2><p><img src="/images/process.png" alt="进程状态图像"></p>
+<h2 id="进程的创建和转换"><a href="#进程的创建和转换" class="headerlink" title="进程的创建和转换"></a>进程的创建和转换</h2><p><img src="/images/process.png" alt="进程状态图像"></p>
 <p>初始化过程：进程被创建，分配资源、初始化PCB；当进程创建完成，进入“就绪状态”</p>
 <p>就绪态：已具备所有运行条件，只缺CPU，暂时不能运行</p>
 <p>运行态：当进程正在CPU运行</p>

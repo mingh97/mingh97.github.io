@@ -1,79 +1,386 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search> 
-  
-  
-    
-    <entry>
-      <title>懊悔、迷茫、重启</title>
-      <link href="/2025/04/29/%E6%87%8A%E6%82%94%E3%80%81%E8%BF%B7%E8%8C%AB%E3%80%81%E9%87%8D%E5%90%AF/"/>
-      <url>/2025/04/29/%E6%87%8A%E6%82%94%E3%80%81%E8%BF%B7%E8%8C%AB%E3%80%81%E9%87%8D%E5%90%AF/</url>
-      
-        <content type="html"><![CDATA[<p>忽然意识到绩点的重要，可是我似乎已经救不回来了</p><p>原先以为绩点没有那么重要，准备all in 科研，且不论科研能不能有进展，如今的绩点似乎已让我失去了敲门砖</p><p>不论过去，现在的课我也不是很能听的进去，“兴趣与专注”，在课内似乎很难找到了</p><p>昨天听了一个博客，有两类态度，大意是”预防失败“和”追寻成功“，毫无疑问我是前者，故而完美主义、故而拖延、故而害怕失败、不敢放眼长远。</p><p><img src="/images/earphone.jpg" alt="earphone"></p><h2 id="那么，我的未来该何去何从呢"><a href="#那么，我的未来该何去何从呢" class="headerlink" title="那么，我的未来该何去何从呢"></a>那么，我的未来该何去何从呢</h2><p>回望过去，似乎各方面都有一点儿却都不突出，且我深深地明白自己并没有很懂，并没有深耕，只是得过且过。</p><p>绩点与科研的平衡，很多人说不能平衡，可这二者我似乎都不能放弃。</p><p>学院学长说科研&gt;&gt;绩点，可目前22级的结果是高绩点&#x3D;&#x3D;更好的学校，xhs也是绩点&gt;&gt;科研，绩点是大保底，21级学长几乎零科研收获上交直博</p><p>可是，学期过半，我又如何救我的课内呢？遑论我上学期那么低的绩点，迷茫迷茫迷茫</p><p>或者all in 科研，直接去读直博，更辛苦更冒险的一条路，一条未知、风险与机遇并存的路，有着更多的不确定性，需要很多努力、决策与运气</p><h2 id="重启：开源、寻找、尝试"><a href="#重启：开源、寻找、尝试" class="headerlink" title="重启：开源、寻找、尝试"></a>重启：开源、寻找、尝试</h2><ul><li><p>开源，最大化利用时间，我终究不可能放弃我的绩点，感受时间，提升效率，专注与兴趣，深耕课本开拓网课，尽可能去补去尝试</p></li><li><p>避免完美主义，去追寻成功</p></li><li><p>反馈机制，每一件事要么正循环要么负循环，去走正循环</p></li></ul><p>记录时间、每天留出4-5小时给课内学习，其余整片时间给科研，科研在于过程，不在于结果</p><h2 id="学期目标"><a href="#学期目标" class="headerlink" title="学期目标"></a>学期目标</h2><p>科研：入门，至少完成idea产出</p><p>绩点：每门课都在10%，计网、OS、需求、马哲达到1%</p><p>量化为:</p><ul><li>OS 、计网   理论和实验  PPT和内容 不留疑问，书本+PPT整合笔记，课后习题</li><li>需求分析课程尽可能听，打听考核内容和形式</li><li>专选课程  RUST听课+PPT弄懂，机器学习听课+实验，前沿技术听课</li></ul><h2 id="可量化小目标（0429-0507）"><a href="#可量化小目标（0429-0507）" class="headerlink" title="可量化小目标（0429-0507）"></a>可量化小目标（0429-0507）</h2><p>科研：每天3+篇文献</p><p>网课：计网每天3节网课+笔记   操作系统从头开始2节网课&#x2F;天，需求课程听课</p><blockquote><p>一以贯之的努力，每天的微小积累会决定最终的结果</p></blockquote>]]></content>
-      
-      
-      
-        <tags>
-            
-            <tag> 节点 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>王道操作系统网课部分笔记</title>
-      <link href="/2025/04/02/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/"/>
-      <url>/2025/04/02/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/</url>
-      
-        <content type="html"><![CDATA[<p>王道课程通俗易懂，但与学校课程相差较大，可能会挑选小部分和课程重合的听</p><p>这篇是之前整理的，随缘更新啦~  后续尽量整合苏老师课程+课本的笔记</p><h1 id="进程与线程"><a href="#进程与线程" class="headerlink" title="进程与线程"></a>进程与线程</h1><p>程序：静态的，存放在磁盘里的可执行文件(.exe)，指令集合</p><p>进程：动态的，程序的一次执行过程，同一个程序可对应多个进程</p><h2 id="进程的组成：PCB、程序段、数据段"><a href="#进程的组成：PCB、程序段、数据段" class="headerlink" title="进程的组成：PCB、程序段、数据段"></a>进程的组成：PCB、程序段、数据段</h2><p>PCB是给操作系统用的，保存了操作系统对进程进行管理工作所需全部信息</p><p>数据段和程序段是进程自己用的，与进程运行逻辑相关</p><h3 id="PCB-Process-Control-Block，进程控制块"><a href="#PCB-Process-Control-Block，进程控制块" class="headerlink" title="PCB (Process Control Block，进程控制块)"></a>PCB (Process Control Block，进程控制块)</h3><p>任务管理器如图所示</p><p><img src="/images/task_mag.png" alt="任务管理器详细信息"></p><p>操作系统要记录每一个进程的PID，UID，分配了哪些资源(内存、IO设备等)，运行状态（CPU使用时间、磁盘使用情况等），这些信息都被保存在PCB这一数据结构中</p><p>PCB是进程块存在的唯一标志，PCB与进程一一对应，进程的创建伴随着PCB的分配，进程终止时，其PCB会被操作系统回收</p><p>操作系统对进程进行管理工作所需信息都在PCB中</p><h3 id="程序段、数据段"><a href="#程序段、数据段" class="headerlink" title="程序段、数据段"></a>程序段、数据段</h3><p><img src="/images/PCB.png" alt="内存块中的PCB"></p><p>程序代码会编译为二进制指令，以可执行文件（如.exe）储存在磁盘中</p><p>程序运行前，操作系统建立进程：创建对应的PCB，从磁盘中读入可执行文件到内存中（称之为程序段）；</p><p>进程的运行过程就是CPU取指执行的过程，也就是运行程序段的过程，而数据段包含运行过程中产生的数据（如变量）；所以说程序段和数据段与进程自身相关</p><p>一个进程实体（也称进程映像，图中灰色部分）由PCB，程序段，数据段三部分构成</p><p>进程是系统进行资源分配和调度的独立单位</p><h2 id="进程的创建和转换"><a href="#进程的创建和转换" class="headerlink" title="进程的创建和转换"></a>进程的创建和转换</h2><p><img src="/images/process.png" alt="进程状态图像"></p><p>初始化过程：进程被创建，分配资源、初始化PCB；当进程创建完成，进入“就绪状态”</p><p>就绪态：已具备所有运行条件，只缺CPU，暂时不能运行</p><p>运行态：当进程正在CPU运行</p><p>阻塞态：进程运行过程中，可能会请求等待某事件发生(如等待IO输入，其他进程相应等)，在这个事件发生前无法进程无法仅需往下执行。这时操作系统让其进入“阻塞态”，下CPU；当外部事件完成，重新进入就绪态</p><p>终止态：进程执行exit系统调用，请求操作系统终止进程，进程进入“终止态”，操作系统让该进程下cpu，回收内存等资源，回收PCB</p>]]></content>
-      
-      
-      
-        <tags>
-            
-            <tag> 笔记 </tag>
-            
-            <tag> 操作系统 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>笑笑猫的由来</title>
-      <link href="/2025/03/30/blog/"/>
-      <url>/2025/03/30/blog/</url>
-      
-        <content type="html"><![CDATA[<h2 id="初步搭了一下blog的主题"><a href="#初步搭了一下blog的主题" class="headerlink" title="初步搭了一下blog的主题"></a>初步搭了一下blog的主题</h2><p>博客是去年搭的，但感觉自己没有技术输出，遂放弃。</p><p>昨天百无聊赖，看到集市上有佬分享博客，兴之所至把这个博客捞出来。</p><p>改了id，换了主题，把它作为一个“树洞类”的博客也不错</p><p>记录一些日常随想，尝试一些“三分钟热度”，也有可能分享一些学习笔记，兴之所至，乘兴而来！</p><h2 id="笑笑猫的id"><a href="#笑笑猫的id" class="headerlink" title="笑笑猫的id"></a>笑笑猫的id</h2><p>为什么叫“笑笑猫”，不知道</p><p>起名字向来随意，想起的时候想到啥就是啥</p><p>当然，也想和学习工作做一个切割</p><p>在体育场往西边的天空看，总是可以看到一两颗很明亮的星星</p><p>无论多么浮躁，看到西边的星星，心都会平静下来</p><p>漫天繁星，但我总觉得星星是孤独的</p><p>所以博客id叫“笑笑猫”吧，一想到心情就很好，很想写博客hhh</p><h2 id="树洞时间"><a href="#树洞时间" class="headerlink" title="树洞时间"></a>树洞时间</h2><p>编辑了很多，但剪不断、理还乱，算了等下次想明白再写吧，今天不走心了</p><p>“竹杖芒鞋轻胜马，谁怕，一蓑烟雨任平生”  真的很喜欢</p><h2 id="碎碎念"><a href="#碎碎念" class="headerlink" title="碎碎念"></a>碎碎念</h2><p>昨天搭了博客，今天和室友们出去团建，明天尊嘟要学习了（不然尊嘟完蛋了）</p><p>还可以水一两篇博客，感觉还不错</p><p>两天作息都很乱，下周调一下作息吧，不拘囿于几点睡</p><p>昨天看了“科幻世界”，开篇就是一个关于数字生命的小说，最后的反转还挺有意思的</p><p>自从周深的《蜃楼》了解数字生命，就会想象数字生命，但的确描绘不出来</p><p>昨天看完《边水往事》，演员都演的很贴，虽然早知道拓子锅会死，但还是心痛</p><p>– 看了一下博客排版，能看，但还是好丑，下次无聊再优化吧</p>]]></content>
-      
-      
-      
-        <tags>
-            
-            <tag> 生活小记 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Hello World</title>
-      <link href="/2024/10/13/hello-world/"/>
-      <url>/2024/10/13/hello-world/</url>
-      
-        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-  
-  
+<search>
+  <entry>
+    <title>笑笑猫的由来</title>
+    <url>/2025/03/30/blog/</url>
+    <content><![CDATA[<h2 id="初步搭了一下blog的主题"><a href="#初步搭了一下blog的主题" class="headerlink" title="初步搭了一下blog的主题"></a>初步搭了一下blog的主题</h2><p>博客是去年搭的，但感觉自己没有技术输出，遂放弃。</p>
+<p>昨天百无聊赖，看到集市上有佬分享博客，兴之所至把这个博客捞出来。</p>
+<p>改了id，换了主题，把它作为一个“树洞类”的博客也不错</p>
+<p>记录一些日常随想，尝试一些“三分钟热度”，也有可能分享一些学习笔记，兴之所至，乘兴而来！</p>
+<h2 id="笑笑猫的id"><a href="#笑笑猫的id" class="headerlink" title="笑笑猫的id"></a>笑笑猫的id</h2><p>为什么叫“笑笑猫”，不知道</p>
+<p>起名字向来随意，想起的时候想到啥就是啥</p>
+<p>当然，也想和学习工作做一个切割</p>
+<p>在体育场往西边的天空看，总是可以看到一两颗很明亮的星星</p>
+<p>无论多么浮躁，看到西边的星星，心都会平静下来</p>
+<p>漫天繁星，但我总觉得星星是孤独的</p>
+<p>所以博客id叫“笑笑猫”吧，一想到心情就很好，很想写博客hhh</p>
+<h2 id="树洞时间"><a href="#树洞时间" class="headerlink" title="树洞时间"></a>树洞时间</h2><p>编辑了很多，但剪不断、理还乱，算了等下次想明白再写吧，今天不走心了</p>
+<p>“竹杖芒鞋轻胜马，谁怕，一蓑烟雨任平生”  真的很喜欢</p>
+<h2 id="碎碎念"><a href="#碎碎念" class="headerlink" title="碎碎念"></a>碎碎念</h2><p>昨天搭了博客，今天和室友们出去团建，明天尊嘟要学习了（不然尊嘟完蛋了）</p>
+<p>还可以水一两篇博客，感觉还不错</p>
+<p>两天作息都很乱，下周调一下作息吧，不拘囿于几点睡</p>
+<p>昨天看了“科幻世界”，开篇就是一个关于数字生命的小说，最后的反转还挺有意思的</p>
+<p>自从周深的《蜃楼》了解数字生命，就会想象数字生命，但的确描绘不出来</p>
+<p>昨天看完《边水往事》，演员都演的很贴，虽然早知道拓子锅会死，但还是心痛</p>
+<p>– 看了一下博客排版，能看，但还是好丑，下次无聊再优化吧</p>
+]]></content>
+      <tags>
+        <tag>生活小记</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/2024/10/13/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>王道操作系统网课部分笔记</title>
+    <url>/2025/04/02/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/</url>
+    <content><![CDATA[<p>王道课程通俗易懂，但与学校课程相差较大，可能会挑选小部分和课程重合的听</p>
+<p>这篇是之前整理的，随缘更新啦~  后续尽量整合苏老师课程+课本的笔记</p>
+<h1 id="进程与线程"><a href="#进程与线程" class="headerlink" title="进程与线程"></a>进程与线程</h1><p>程序：静态的，存放在磁盘里的可执行文件(.exe)，指令集合</p>
+<p>进程：动态的，程序的一次执行过程，同一个程序可对应多个进程</p>
+<h2 id="进程的组成：PCB、程序段、数据段"><a href="#进程的组成：PCB、程序段、数据段" class="headerlink" title="进程的组成：PCB、程序段、数据段"></a>进程的组成：PCB、程序段、数据段</h2><p>PCB是给操作系统用的，保存了操作系统对进程进行管理工作所需全部信息</p>
+<p>数据段和程序段是进程自己用的，与进程运行逻辑相关</p>
+<h3 id="PCB-Process-Control-Block，进程控制块"><a href="#PCB-Process-Control-Block，进程控制块" class="headerlink" title="PCB (Process Control Block，进程控制块)"></a>PCB (Process Control Block，进程控制块)</h3><p>任务管理器如图所示</p>
+<p><img src="/images/task_mag.png" alt="任务管理器详细信息"></p>
+<p>操作系统要记录每一个进程的PID，UID，分配了哪些资源(内存、IO设备等)，运行状态（CPU使用时间、磁盘使用情况等），这些信息都被保存在PCB这一数据结构中</p>
+<p>PCB是进程块存在的唯一标志，PCB与进程一一对应，进程的创建伴随着PCB的分配，进程终止时，其PCB会被操作系统回收</p>
+<p>操作系统对进程进行管理工作所需信息都在PCB中</p>
+<h3 id="程序段、数据段"><a href="#程序段、数据段" class="headerlink" title="程序段、数据段"></a>程序段、数据段</h3><p><img src="/images/PCB.png" alt="内存块中的PCB"></p>
+<p>程序代码会编译为二进制指令，以可执行文件（如.exe）储存在磁盘中</p>
+<p>程序运行前，操作系统建立进程：创建对应的PCB，从磁盘中读入可执行文件到内存中（称之为程序段）；</p>
+<p>进程的运行过程就是CPU取指执行的过程，也就是运行程序段的过程，而数据段包含运行过程中产生的数据（如变量）；所以说程序段和数据段与进程自身相关</p>
+<p>一个进程实体（也称进程映像，图中灰色部分）由PCB，程序段，数据段三部分构成</p>
+<p>进程是系统进行资源分配和调度的独立单位</p>
+<h2 id="进程的创建和转换"><a href="#进程的创建和转换" class="headerlink" title="进程的创建和转换"></a>进程的创建和转换</h2><p><img src="/images/process.png" alt="进程状态图像"></p>
+<p>初始化过程：进程被创建，分配资源、初始化PCB；当进程创建完成，进入“就绪状态”</p>
+<p>就绪态：已具备所有运行条件，只缺CPU，暂时不能运行</p>
+<p>运行态：当进程正在CPU运行</p>
+<p>阻塞态：进程运行过程中，可能会请求等待某事件发生(如等待IO输入，其他进程相应等)，在这个事件发生前无法进程无法仅需往下执行。这时操作系统让其进入“阻塞态”，下CPU；当外部事件完成，重新进入就绪态</p>
+<p>终止态：进程执行exit系统调用，请求操作系统终止进程，进程进入“终止态”，操作系统让该进程下cpu，回收内存等资源，回收PCB</p>
+]]></content>
+      <tags>
+        <tag>笔记</tag>
+        <tag>操作系统</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>懊悔、迷茫、重启</title>
+    <url>/2025/04/29/%E6%87%8A%E6%82%94%E3%80%81%E8%BF%B7%E8%8C%AB%E3%80%81%E9%87%8D%E5%90%AF/</url>
+    <content><![CDATA[<p>忽然意识到绩点的重要，可是我似乎已经救不回来了</p>
+<p>原先以为绩点没有那么重要，准备all in 科研，且不论科研能不能有进展，如今的绩点似乎已让我失去了敲门砖</p>
+<p>不论过去，现在的课我也不是很能听的进去，“兴趣与专注”，在课内似乎很难找到了</p>
+<p>昨天听了一个博客，有两类态度，大意是”预防失败“和”追寻成功“，毫无疑问我是前者，故而完美主义、故而拖延、故而害怕失败、不敢放眼长远。</p>
+<p><img src="/images/earphone.jpg" alt="earphone"></p>
+<h2 id="那么，我的未来该何去何从呢"><a href="#那么，我的未来该何去何从呢" class="headerlink" title="那么，我的未来该何去何从呢"></a>那么，我的未来该何去何从呢</h2><p>回望过去，似乎各方面都有一点儿却都不突出，且我深深地明白自己并没有很懂，并没有深耕，只是得过且过。</p>
+<p>绩点与科研的平衡，很多人说不能平衡，可这二者我似乎都不能放弃。</p>
+<p>学院学长说科研&gt;&gt;绩点，可目前22级的结果是高绩点&#x3D;&#x3D;更好的学校，xhs也是绩点&gt;&gt;科研，绩点是大保底，21级学长几乎零科研收获上交直博</p>
+<p>可是，学期过半，我又如何救我的课内呢？遑论我上学期那么低的绩点，迷茫迷茫迷茫</p>
+<p>或者all in 科研，直接去读直博，更辛苦更冒险的一条路，一条未知、风险与机遇并存的路，有着更多的不确定性，需要很多努力、决策与运气</p>
+<h2 id="重启：开源、寻找、尝试"><a href="#重启：开源、寻找、尝试" class="headerlink" title="重启：开源、寻找、尝试"></a>重启：开源、寻找、尝试</h2><ul>
+<li><p>开源，最大化利用时间，我终究不可能放弃我的绩点，感受时间，提升效率，专注与兴趣，深耕课本开拓网课，尽可能去补去尝试</p>
+</li>
+<li><p>避免完美主义，去追寻成功</p>
+</li>
+<li><p>反馈机制，每一件事要么正循环要么负循环，去走正循环</p>
+</li>
+</ul>
+<p>记录时间、每天留出4-5小时给课内学习，其余整片时间给科研，科研在于过程，不在于结果</p>
+<h2 id="学期目标"><a href="#学期目标" class="headerlink" title="学期目标"></a>学期目标</h2><p>科研：入门，至少完成idea产出</p>
+<p>绩点：每门课都在10%，计网、OS、需求、马哲达到1%</p>
+<p>量化为:</p>
+<ul>
+<li>OS 、计网   理论和实验  PPT和内容 不留疑问，书本+PPT整合笔记，课后习题</li>
+<li>需求分析课程尽可能听，打听考核内容和形式</li>
+<li>专选课程  RUST听课+PPT弄懂，机器学习听课+实验，前沿技术听课</li>
+</ul>
+<h2 id="可量化小目标（0429-0507）"><a href="#可量化小目标（0429-0507）" class="headerlink" title="可量化小目标（0429-0507）"></a>可量化小目标（0429-0507）</h2><p>科研：每天3+篇文献</p>
+<p>网课：计网每天3节网课+笔记   操作系统从头开始2节网课&#x2F;天，需求课程听课</p>
+<blockquote>
+<p>一以贯之的努力，每天的微小积累会决定最终的结果</p>
+</blockquote>
+]]></content>
+      <tags>
+        <tag>节点</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>操作系统实验第9~10周</title>
+    <url>/2025/04/30/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E5%AE%9E%E9%AA%8C%E7%AC%AC9-10%E5%91%A8/</url>
+    <content><![CDATA[<p>常规的记数代码：</p>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;pthread.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="type">unsigned</span> <span class="type">long</span> a = <span class="number">0</span>;</span><br><span class="line"></span><br><span class="line"><span class="type">void</span> *<span class="title function_">routine</span><span class="params">(<span class="type">void</span> *arg)</span> &#123;</span><br><span class="line">    <span class="keyword">for</span>(<span class="type">int</span> i = <span class="number">0</span>; i &lt; <span class="number">1000000000</span>; i++) &#123;</span><br><span class="line">        a++;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> <span class="literal">NULL</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">(<span class="type">void</span>)</span> &#123;</span><br><span class="line">    <span class="type">pthread_t</span> threads[<span class="number">2</span>];    <span class="comment">//创建 2个线程标识符</span></span><br><span class="line">    <span class="keyword">for</span>(<span class="type">int</span> i = <span class="number">0</span>; i &lt; <span class="number">2</span>; i++) &#123;</span><br><span class="line">        pthread_create(&amp;threads[i], <span class="literal">NULL</span>, routine, <span class="number">0</span>);   <span class="comment">//每次循环创建一个进程执行非原子操作加，</span></span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">for</span>(<span class="type">int</span> i = <span class="number">0</span>; i &lt; <span class="number">2</span>; i++) &#123;</span><br><span class="line">        pthread_join(threads[i], <span class="literal">NULL</span>);</span><br><span class="line">    &#125;   <span class="comment">//等待所有线程执行完毕，确保主线程在输出前所有累加操作已完成</span></span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;%lu\n&quot;</span>, a);    </span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>非原子操作，若为原子应输出20亿，实际输出997436017（不到10亿）</p>
+<h1 id="原子操作"><a href="#原子操作" class="headerlink" title="原子操作"></a>原子操作</h1><h2 id="GCC内置的常用原子操作"><a href="#GCC内置的常用原子操作" class="headerlink" title="GCC内置的常用原子操作"></a>GCC内置的常用原子操作</h2><ul>
+<li>__sync_fetch_and_add </li>
+<li>__sync_fetch_and_sub</li>
+<li>__sync_fetch_and_and</li>
+<li>__sync_bool_compare_and_swap</li>
+<li>__sync_val_compare_and_swap</li>
+</ul>
+<p>注意：这些操作已不推荐使用，但有助于理解原子操作的概念</p>
+<h3 id="sync-fetch-and-add"><a href="#sync-fetch-and-add" class="headerlink" title="__sync_fetch_and_add"></a>__sync_fetch_and_add</h3><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdlib.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;pthread.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="type">int</span> count_unsafe = <span class="number">0</span>;</span><br><span class="line"><span class="type">int</span> count_safe = <span class="number">0</span>;</span><br><span class="line"></span><br><span class="line"><span class="type">void</span>* <span class="title function_">runner</span><span class="params">()</span> &#123;</span><br><span class="line">    <span class="keyword">for</span>(<span class="type">int</span> i = <span class="number">0</span>; i &lt; <span class="number">1000000</span>; i++) &#123;</span><br><span class="line">        count_unsafe++;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="type">void</span>* <span class="title function_">runner_sync</span><span class="params">()</span> &#123;</span><br><span class="line">    <span class="keyword">for</span>(<span class="type">int</span> i = <span class="number">0</span>; i &lt; <span class="number">1000000</span>; i++) &#123;</span><br><span class="line">        __sync_fetch_and_add(&amp;count_safe, <span class="number">1</span>);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">()</span> &#123;</span><br><span class="line">    <span class="type">pthread_t</span> threadIDs[<span class="number">32</span>];</span><br><span class="line">    <span class="keyword">for</span>(<span class="type">int</span> i = <span class="number">0</span>; i &lt; <span class="number">32</span>; i+=<span class="number">2</span>) &#123;</span><br><span class="line">        pthread_create(&amp;threadIDs[i], <span class="literal">NULL</span>, runner_sync, <span class="literal">NULL</span>);</span><br><span class="line">        pthread_create(&amp;threadIDs[i+<span class="number">1</span>], <span class="literal">NULL</span>, runner, <span class="literal">NULL</span>);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">for</span>(<span class="type">int</span> i = <span class="number">0</span>; i &lt; <span class="number">32</span>; i++) &#123;</span><br><span class="line">        pthread_join(threadIDs[i], <span class="literal">NULL</span>);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;The atomic counter is %u\n&quot;</span>, count_safe);</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;The non-atomic counter is %u\n&quot;</span>, count_unsafe);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<details>
+<summary><strong>点击展开详细代码解析</strong></summary>
+这段 C 代码展示了多线程编程中的原子操作和非原子操作之间的区别。程序启动了多个线程...
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="type">int</span> count_unsafe = <span class="number">0</span>;</span><br><span class="line"><span class="type">int</span> count_safe = <span class="number">0</span>;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">这段 C 代码展示了多线程编程中的原子操作和非原子操作之间的区别。程序启动了多个线程来分别对两个全局变量 `count_unsafe` 和 `count_safe` 进行累加操作，但使用了不同的同步策略，从而演示了数据竞争（data race）的后果。</span><br><span class="line"></span><br><span class="line">**🔹 关键点一：全局变量**</span><br><span class="line"></span><br><span class="line">```c</span><br><span class="line"><span class="type">int</span> count_unsafe = <span class="number">0</span>;</span><br><span class="line"><span class="type">int</span> count_safe = <span class="number">0</span>;</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li><code>count_unsafe</code>：不安全的计数器，多个线程直接对其执行 <code>++</code> 操作（不是原子的），可能发生数据竞争。</li>
+<li><code>count_safe</code>：安全的计数器，使用 GCC 提供的原子操作函数 <code>__sync_fetch_and_add</code> 保证线程安全。</li>
+</ul>
+<hr>
+<p><strong>🔹 线程函数解释</strong></p>
+<p><strong>1. 非线程安全的 <code>runner()</code></strong></p>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="type">void</span>* <span class="title function_">runner</span><span class="params">()</span> &#123;</span><br><span class="line">    <span class="keyword">for</span>(<span class="type">int</span> i = <span class="number">0</span>; i &lt; <span class="number">1000000</span>; i++) &#123;</span><br><span class="line">        count_unsafe++;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li><code>count_unsafe++</code> 是非原子的，多个线程并发修改会造成“丢失更新”。</li>
+</ul>
+<p><strong>2. 线程安全的 <code>runner_sync()</code></strong></p>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="type">void</span>* <span class="title function_">runner_sync</span><span class="params">()</span> &#123;</span><br><span class="line">    <span class="keyword">for</span>(<span class="type">int</span> i = <span class="number">0</span>; i &lt; <span class="number">1000000</span>; i++) &#123;</span><br><span class="line">        __sync_fetch_and_add(&amp;count_safe, <span class="number">1</span>);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>使用原子操作，确保线程安全。</li>
+</ul>
+<hr>
+<p><strong>🔹 主函数流程</strong></p>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="type">pthread_t</span> threadIDs[<span class="number">32</span>];</span><br><span class="line"><span class="keyword">for</span>(<span class="type">int</span> i = <span class="number">0</span>; i &lt; <span class="number">32</span>; i+=<span class="number">2</span>) &#123;</span><br><span class="line">    pthread_create(&amp;threadIDs[i], <span class="literal">NULL</span>, runner_sync, <span class="literal">NULL</span>);</span><br><span class="line">    pthread_create(&amp;threadIDs[i+<span class="number">1</span>], <span class="literal">NULL</span>, runner, <span class="literal">NULL</span>);</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">for</span>(<span class="type">int</span> i = <span class="number">0</span>; i &lt; <span class="number">32</span>; i++) &#123;</span><br><span class="line">    pthread_join(threadIDs[i], <span class="literal">NULL</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>启动 16 对线程，分别对两个计数器进行并发加法操作。</li>
+</ul>
+<hr>
+<p><strong>🔹 输出结果分析</strong></p>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="built_in">printf</span>(<span class="string">&quot;The atomic counter is %u\n&quot;</span>, count_safe);</span><br><span class="line"><span class="built_in">printf</span>(<span class="string">&quot;The non-atomic counter is %u\n&quot;</span>, count_unsafe);</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li><code>count_safe</code> 的值通常为 <code>16000000</code>；</li>
+<li><code>count_unsafe</code> 会因为线程冲突而低于 <code>16000000</code>。</li>
+</ul>
+<hr>
+<p><strong>🔹 示例运行输出</strong></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">The atomic counter is 16000000</span><br><span class="line">The non-atomic counter is 13823453</span><br></pre></td></tr></table></figure>
+
+</details>
+
+<p>实际输出为：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">The atomic counter is 16000000</span><br><span class="line">The non-atomic counter is 1812057</span><br></pre></td></tr></table></figure>
+
+
+
+
+<h2 id="通用的-C-语言版本"><a href="#通用的-C-语言版本" class="headerlink" title="通用的 C 语言版本"></a>通用的 C 语言版本</h2><ul>
+<li>C语言声明<ul>
+<li>_Atomic</li>
+<li>原子变量的基本操作都以原子的方式完成<ul>
+<li>内嵌原子操作</li>
+</ul>
+</li>
+<li>需要硬件、编译器支持</li>
+</ul>
+</li>
+</ul>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;pthread.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdatomic.h&gt;</span></span></span><br><span class="line"><span class="keyword">_Atomic</span> <span class="type">int</span> <span class="type">atomic_count</span> = <span class="number">0</span>;</span><br><span class="line"><span class="type">int</span> count = <span class="number">0</span>;</span><br><span class="line"><span class="type">void</span>* <span class="title function_">runner</span><span class="params">()</span> &#123;</span><br><span class="line">    <span class="keyword">for</span>(<span class="type">int</span> i = <span class="number">0</span>; i &lt; <span class="number">1000000</span>; i++) &#123;</span><br><span class="line">        count++;</span><br><span class="line">        <span class="type">atomic_count</span>++;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">()</span> &#123;</span><br><span class="line">    <span class="type">pthread_t</span> threadIDs[<span class="number">16</span>];</span><br><span class="line">    <span class="keyword">for</span>(<span class="type">int</span> i = <span class="number">0</span>; i &lt; <span class="number">16</span>; i++) &#123;</span><br><span class="line">        pthread_create(&amp;threadIDs[i], <span class="literal">NULL</span>, runner, <span class="literal">NULL</span>);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">for</span>(<span class="type">int</span> i = <span class="number">0</span>; i &lt; <span class="number">16</span>; i++) &#123;</span><br><span class="line">        pthread_join(threadIDs[i], <span class="literal">NULL</span>);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;The atomic counter is %u\n&quot;</span>, <span class="type">atomic_count</span>);</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;The non-atomic counter is %u\n&quot;</span>, count);</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<details>
+<summary>代码解释</summary>
+**🔹 关键点一：定义两个计数器**
+
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="keyword">_Atomic</span> <span class="type">int</span> <span class="type">atomic_count</span> = <span class="number">0</span>;</span><br><span class="line"><span class="type">int</span> count = <span class="number">0</span>;</span><br></pre></td></tr></table></figure>
+<p>atomic_count 是原子类型，能保证多线程下对它的增操作是线程安全的。</p>
+<p>count 是普通变量，在多线程中可能会出现竞态条件（race condition）。</p>
+<p><strong>🔹 关键点二：定义线程函数</strong></p>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="type">void</span>* <span class="title function_">runner</span><span class="params">()</span> &#123;</span><br><span class="line">    <span class="keyword">for</span>(<span class="type">int</span> i = <span class="number">0</span>; i &lt; <span class="number">1000000</span>; i++) &#123;</span><br><span class="line">        count++;</span><br><span class="line">        <span class="type">atomic_count</span>++;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>每个线程执行一百万次自增操作：</p>
+<p>count++ 是非线程安全的，会发生数据竞争。</p>
+<p>atomic_count++ 是线程安全的。</p>
+</details>
+
+<p>实际输出为：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">The atomic counter is 16000000</span><br><span class="line">The non-atomic counter is 5477141</span><br></pre></td></tr></table></figure>
+
+
+
+<h2 id="通用的-C-语言版本-1"><a href="#通用的-C-语言版本-1" class="headerlink" title="通用的 C++ 语言版本"></a>通用的 C++ 语言版本</h2><ul>
+<li>std::atomic<T><ul>
+<li>T可以为任意类型</li>
+<li>如果T为整形，有++&#x2F;–操作</li>
+<li>exchange 原子地交换数值</li>
+</ul>
+</li>
+</ul>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;atomic&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;cstdio&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;is lock free? %s\n&quot;</span>, std::atomic&lt;<span class="type">int</span>&gt;::is_always_lock_free ? <span class="string">&quot;true&quot;</span> : <span class="string">&quot;false&quot;</span>);   <span class="comment">//std::atomic&lt;int&gt;::is_always_lock_free 是一个 编译时常量。 如果为 true，表示 在所有平台和所有上下文中，std::atomic&lt;int&gt; 都是无锁的。</span></span><br><span class="line">    <span class="function">std::atomic&lt;<span class="type">int</span>&gt; <span class="title">a</span><span class="params">(<span class="number">3</span>)</span></span>;  <span class="comment">//创建一个原子整型变量 a，初始值为 3</span></span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;is this lock free? %s\n&quot;</span>, a.<span class="built_in">is_lock_free</span>() ? <span class="string">&quot;true&quot;</span> : <span class="string">&quot;false&quot;</span>); <span class="comment">//a.is_lock_free() 是 运行时查询，表示在当前系统上，该实例是否是无锁实现。</span></span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>📌 总结对比：</p>
+<p>is_always_lock_free:  表示所有平台上是否都无锁（硬件支持）</p>
+<p>is_lock_free():  表示当前平台上的当前实例是否无锁</p>
+<ul>
+<li>由于是c++代码，编译器需从gcc改为g++:</li>
+</ul>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">g++ -lpthread atomic_exchange.cpp -o atomic</span><br><span class="line"><span class="comment">#include &lt;iostream&gt;</span></span><br><span class="line"><span class="comment">#include &lt;pthread.h&gt;</span></span><br><span class="line"><span class="comment">#include &lt;atomic&gt;</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">std::atomic&lt;bool&gt; ready (<span class="literal">false</span>);</span><br><span class="line">std::atomic&lt;bool&gt; winner (<span class="literal">false</span>);</span><br><span class="line"></span><br><span class="line">void* count1m (void *arg) &#123;</span><br><span class="line">    int <span class="built_in">id</span> = *(int*)arg;</span><br><span class="line">    <span class="keyword">while</span> (!ready) &#123;&#125;                  // <span class="built_in">wait</span> <span class="keyword">for</span> the ready signal</span><br><span class="line">    <span class="keyword">for</span> (int i=0; i&lt;1000000; ++i) &#123;&#125;   // go!, count to 1 million</span><br><span class="line">    <span class="keyword">if</span> (!winner.exchange(<span class="literal">true</span>)) &#123;</span><br><span class="line">        std::cout &lt;&lt; <span class="string">&quot;thread #&quot;</span> &lt;&lt; <span class="string">id &lt;&lt; &quot; won!\n&quot;;</span></span><br><span class="line"><span class="string">    &#125;</span></span><br><span class="line"><span class="string">    return NULL;</span></span><br><span class="line"><span class="string">&#125;;</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">int main ()</span></span><br><span class="line"><span class="string">&#123;</span></span><br><span class="line"><span class="string">    pthread_t threadIDs[10];</span></span><br><span class="line"><span class="string">    int ids[10];</span></span><br><span class="line"><span class="string">    std::cout &lt;&lt; &quot;spawning 10 threads that count to 1 million...&quot; &lt;&lt; std::endl;</span></span><br><span class="line"><span class="string">    for(int i = 0; i &lt; 10; i++) &#123;</span></span><br><span class="line"><span class="string">        ids[i] = i;</span></span><br><span class="line"><span class="string">        pthread_create(&amp;threadIDs[i], NULL, count1m, (void*)&amp;ids[i]);</span></span><br><span class="line"><span class="string">    &#125;</span></span><br><span class="line"><span class="string">    ready = true;</span></span><br><span class="line"><span class="string">    for(int i = 0; i &lt; 10; i++) &#123;</span></span><br><span class="line"><span class="string">        pthread_join(threadIDs[i], NULL);</span></span><br><span class="line"><span class="string">    &#125;</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">    return 0;</span></span><br><span class="line"><span class="string">&#125;</span></span><br></pre></td></tr></table></figure>
+
+<ol>
+<li><h1 id="pthread互斥锁"><a href="#pthread互斥锁" class="headerlink" title="pthread互斥锁"></a>pthread互斥锁</h1></li>
+<li><h2 id="基本操作"><a href="#基本操作" class="headerlink" title="基本操作"></a>基本操作</h2></li>
+</ol>
+<ul>
+<li>锁初始化：pthread_mutex_init</li>
+<li>加锁：pthread_mutex_lock</li>
+<li>解锁：pthread_mutex_unlock</li>
+<li>锁销毁：pthread_mutex_destroy</li>
+</ul>
+<p><img src="https://ycnw11in464y.feishu.cn/space/api/box/stream/download/asynccode/?code=OWEzODg4NTQwODhkY2NlZjQ4ZjljYjMyMDYzMGMxYjFfaHBPSlRJSndweThrdzlMTDNIT0VrN0tYb2M3YUt3TmpfVG9rZW46RjNWZ2JtVnBtb0ZUa214a21pcGNTdXlEbjFiXzE3NDU5ODE1NDU6MTc0NTk4NTE0NV9WNA" alt="img"></p>
+<ol>
+<li><h2 id="测试线程安全的哈希表性能"><a href="#测试线程安全的哈希表性能" class="headerlink" title="测试线程安全的哈希表性能"></a>测试线程安全的哈希表性能</h2></li>
+</ol>
+<p>用数组实现的哈希表：</p>
+<p><img src="https://ycnw11in464y.feishu.cn/space/api/box/stream/download/asynccode/?code=M2Y5NzBhYjliNzFkYTg3MmYyNTI4YmJhOGE0YmM4NGRfdVZKNmg1Zml4VzNjNm04eUVGTTBiY1ZPRGl2VUdiZUJfVG9rZW46SEJlcGJPZG9Xb0wyZm14VEViU2NtSGhqbkRlXzE3NDU5ODE1NDU6MTc0NTk4NTE0NV9WNA" alt="img"></p>
+<p>以下是没有加锁的代码：</p>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdlib.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;pthread.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;time.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> TABLE_SIZE 10007 <span class="comment">// size of the hash table</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> N_OPERATIONS 10000000 <span class="comment">// total number of operations to perform</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> N_THREADS 10 <span class="comment">// number of threads to use</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> READ_RATIO 0.8 <span class="comment">// ratio of read operations (rest are write and delete)</span></span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">typedef</span> <span class="class"><span class="keyword">struct</span> <span class="title">node</span> &#123;</span></span><br><span class="line">    <span class="type">int</span> key;</span><br><span class="line">    <span class="type">int</span> value;</span><br><span class="line">    <span class="class"><span class="keyword">struct</span> <span class="title">node</span>* <span class="title">next</span>;</span></span><br><span class="line">&#125; <span class="type">node_t</span>;</span><br><span class="line"></span><br><span class="line"><span class="type">node_t</span>* table[TABLE_SIZE]; <span class="comment">// array of linked lists, one for each hash bucket</span></span><br><span class="line"></span><br><span class="line"><span class="type">void</span> <span class="title function_">hash_init</span><span class="params">()</span> &#123;</span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">0</span>; i &lt; TABLE_SIZE; i++) &#123;</span><br><span class="line">        table[i] = <span class="literal">NULL</span>;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="type">void</span> <span class="title function_">hash_insert</span><span class="params">(<span class="type">int</span> key, <span class="type">int</span> value)</span> &#123;</span><br><span class="line">    <span class="type">int</span> index = key % TABLE_SIZE;</span><br><span class="line">    <span class="type">node_t</span>* new_node = (<span class="type">node_t</span>*)<span class="built_in">malloc</span>(<span class="keyword">sizeof</span>(<span class="type">node_t</span>));</span><br><span class="line">    new_node-&gt;key = key;</span><br><span class="line">    new_node-&gt;value = value;</span><br><span class="line">    new_node-&gt;next = table[index];</span><br><span class="line">    table[index] = new_node;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="type">int</span> <span class="title function_">hash_search</span><span class="params">(<span class="type">int</span> key)</span> &#123;</span><br><span class="line">    <span class="type">int</span> index = key % TABLE_SIZE;</span><br><span class="line">    <span class="type">node_t</span>* current = table[index];</span><br><span class="line">    <span class="keyword">while</span> (current != <span class="literal">NULL</span>) &#123;</span><br><span class="line">        <span class="keyword">if</span> (current-&gt;key == key) &#123;</span><br><span class="line">            <span class="type">int</span> value = current-&gt;value;</span><br><span class="line">            <span class="keyword">return</span> value;</span><br><span class="line">        &#125;</span><br><span class="line">        current = current-&gt;next;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">-1</span>; <span class="comment">// key not found</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="type">void</span> <span class="title function_">hash_delete</span><span class="params">(<span class="type">int</span> key)</span> &#123;</span><br><span class="line">    <span class="type">int</span> index = key % TABLE_SIZE;</span><br><span class="line">    <span class="type">node_t</span>* current = table[index];</span><br><span class="line">    <span class="type">node_t</span>* previous = <span class="literal">NULL</span>;</span><br><span class="line">    <span class="keyword">while</span> (current != <span class="literal">NULL</span>) &#123;</span><br><span class="line">        <span class="keyword">if</span> (current-&gt;key == key) &#123;</span><br><span class="line">            <span class="keyword">if</span> (previous == <span class="literal">NULL</span>) &#123;</span><br><span class="line">                table[index] = current-&gt;next;</span><br><span class="line">            &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">                previous-&gt;next = current-&gt;next;</span><br><span class="line">            &#125;</span><br><span class="line">            <span class="built_in">free</span>(current);</span><br><span class="line">            <span class="keyword">break</span>;</span><br><span class="line">        &#125;</span><br><span class="line">        previous = current;</span><br><span class="line">        current = current-&gt;next;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="type">void</span>* <span class="title function_">worker</span><span class="params">(<span class="type">void</span>* arg)</span> &#123;</span><br><span class="line">    srand(time(<span class="literal">NULL</span>) + (<span class="type">long</span>)arg); <span class="comment">// seed random number generator</span></span><br><span class="line">    <span class="type">int</span> n_reads = <span class="number">0</span>, n_writes = <span class="number">0</span>, n_deletes = <span class="number">0</span>;</span><br><span class="line"></span><br><span class="line">    <span class="class"><span class="keyword">struct</span> <span class="title">timespec</span> <span class="title">start_time</span>, <span class="title">end_time</span>;</span></span><br><span class="line">    clock_gettime(CLOCK_REALTIME, &amp;start_time); <span class="comment">// start timer</span></span><br><span class="line"></span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">0</span>; i &lt; N_OPERATIONS / N_THREADS; i++) &#123;</span><br><span class="line">        <span class="type">double</span> p = (<span class="type">double</span>)rand() / RAND_MAX;</span><br><span class="line">        <span class="keyword">if</span> (p &lt; READ_RATIO) &#123;</span><br><span class="line">            <span class="type">int</span> key = rand() % N_OPERATIONS; <span class="comment">// assume keys are integers in [0, N_OPERATIONS)</span></span><br><span class="line">            hash_search(key);</span><br><span class="line">            n_reads++;</span><br><span class="line">        &#125; <span class="keyword">else</span> <span class="keyword">if</span> (p &lt; <span class="number">0.9</span>) &#123;</span><br><span class="line">            <span class="type">int</span> key = rand() % N_OPERATIONS;</span><br><span class="line">            <span class="type">int</span> value = rand() % <span class="number">1000</span>; <span class="comment">// assume values are integers in [0, 1000)</span></span><br><span class="line">            hash_insert(key, value);</span><br><span class="line">            n_writes++;</span><br><span class="line">        &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">            <span class="type">int</span> key = rand() % N_OPERATIONS;</span><br><span class="line">            hash_delete(key);</span><br><span class="line">            n_deletes++;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    clock_gettime(CLOCK_REALTIME, &amp;end_time); <span class="comment">// end timer</span></span><br><span class="line">    <span class="type">double</span> elapsed_time = (end_time.tv_sec - start_time.tv_sec) + <span class="number">1e-9</span> * (end_time.tv_nsec - start_time.tv_nsec);</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;Thread %ld finished: %.0f reads/sec, %.0f writes/sec, %.0f deletes/sec\n&quot;</span>, (<span class="type">long</span>)arg, n_reads / elapsed_time, n_writes / elapsed_time, n_deletes / elapsed_time);</span><br><span class="line">    pthread_exit(<span class="literal">NULL</span>);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">()</span> &#123;</span><br><span class="line">    <span class="type">pthread_t</span> threads[N_THREADS];</span><br><span class="line"></span><br><span class="line">    hash_init();</span><br><span class="line"></span><br><span class="line">    <span class="class"><span class="keyword">struct</span> <span class="title">timespec</span> <span class="title">start_time</span>, <span class="title">end_time</span>;</span></span><br><span class="line">    clock_gettime(CLOCK_REALTIME, &amp;start_time); <span class="comment">// start timer</span></span><br><span class="line"></span><br><span class="line">    <span class="type">int</span> ids[N_THREADS];</span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">0</span>; i &lt; N_THREADS; i++) &#123;</span><br><span class="line">        ids[i] = i;</span><br><span class="line">        pthread_create(&amp;threads[i], <span class="literal">NULL</span>, worker, (<span class="type">void</span>*)(<span class="type">long</span>)ids[i]);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">0</span>; i &lt; N_THREADS; i++) &#123;</span><br><span class="line">        pthread_join(threads[i], <span class="literal">NULL</span>);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    clock_gettime(CLOCK_REALTIME, &amp;end_time); <span class="comment">// end timer</span></span><br><span class="line">    <span class="type">double</span> elapsed_time = (end_time.tv_sec - start_time.tv_sec) + <span class="number">1e-9</span> * (end_time.tv_nsec - start_time.tv_nsec);</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;Benchmark finished in %f seconds\n&quot;</span>, elapsed_time);</span><br><span class="line"></span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>练习：在适当位置加适当的锁，以提升多线程哈希表的处理能力。<ul>
+<li>可以使用锁包括：<ul>
+<li>普通互斥锁：pthread_mutex_t</li>
+<li>自旋锁：pthread_spinlock_t</li>
+<li>读写锁：pthread_rwlock_t</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>如果锁加得不好，那么性能数据可能是这样：</li>
+</ul>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">Thread 0 finished: 28501 reads/sec, 3573 writes/sec, 3576 deletes/sec</span><br><span class="line">Thread 1 finished: 15374 reads/sec, 1916 writes/sec, 1920 deletes/sec</span><br><span class="line">Thread 9 finished: 13989 reads/sec, 1745 writes/sec, 1735 deletes/sec</span><br><span class="line">Thread 7 finished: 13807 reads/sec, 1738 writes/sec, 1729 deletes/sec</span><br><span class="line">Thread 5 finished: 13812 reads/sec, 1723 writes/sec, 1730 deletes/sec</span><br><span class="line">Thread 2 finished: 13812 reads/sec, 1715 writes/sec, 1722 deletes/sec</span><br><span class="line">Thread 4 finished: 13745 reads/sec, 1718 writes/sec, 1717 deletes/sec</span><br><span class="line">Thread 6 finished: 13671 reads/sec, 1711 writes/sec, 1712 deletes/sec</span><br><span class="line">Thread 8 finished: 13665 reads/sec, 1710 writes/sec, 1701 deletes/sec</span><br><span class="line">Thread 3 finished: 13654 reads/sec, 1699 writes/sec, 1719 deletes/sec</span><br><span class="line">Benchmark finished <span class="keyword">in</span> 58.593827 seconds</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>如果锁加得好，性能数据可能是这样：</li>
+</ul>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">Thread 0 finished: 151036 reads/sec, 19066 writes/sec, 18844 deletes/sec</span><br><span class="line">Thread 1 finished: 142437 reads/sec, 17883 writes/sec, 17864 deletes/sec</span><br><span class="line">Thread 2 finished: 142430 reads/sec, 17854 writes/sec, 17867 deletes/sec</span><br><span class="line">Thread 7 finished: 142527 reads/sec, 17767 writes/sec, 17800 deletes/sec</span><br><span class="line">Thread 5 finished: 142161 reads/sec, 17799 writes/sec, 17797 deletes/sec</span><br><span class="line">Thread 3 finished: 141642 reads/sec, 17756 writes/sec, 17782 deletes/sec</span><br><span class="line">Thread 6 finished: 141295 reads/sec, 17533 writes/sec, 17521 deletes/sec</span><br><span class="line">Thread 4 finished: 140314 reads/sec, 17640 writes/sec, 17515 deletes/sec</span><br><span class="line">Thread 9 finished: 139035 reads/sec, 17317 writes/sec, 17324 deletes/sec</span><br><span class="line">Thread 8 finished: 137432 reads/sec, 17177 writes/sec, 17133 deletes/sec</span><br><span class="line">Benchmark finished <span class="keyword">in</span> 5.823550 seconds</span><br></pre></td></tr></table></figure>
+
+<ol>
+<li><h2 id="线程安全的数据结构"><a href="#线程安全的数据结构" class="headerlink" title="线程安全的数据结构"></a>线程安全的数据结构</h2></li>
+</ol>
+<ul>
+<li>何为线程安全？<ul>
+<li>引入多线程的并发操作之后，原有结构不会遭到破坏</li>
+</ul>
+</li>
+<li>以下代码为通过加锁机制实现的线程安全链表：</li>
+</ul>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;pthread.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdlib.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="type">pthread_mutex_t</span> lock = PTHREAD_MUTEX_INITIALIZER;</span><br><span class="line"></span><br><span class="line"><span class="keyword">typedef</span> <span class="class"><span class="keyword">struct</span> <span class="title">Node</span> &#123;</span></span><br><span class="line">    <span class="class"><span class="keyword">struct</span> <span class="title">Node</span> *<span class="title">next</span>;</span></span><br><span class="line">    <span class="type">int</span> value;</span><br><span class="line">&#125; Node;</span><br><span class="line"></span><br><span class="line">Node *top = <span class="literal">NULL</span>; <span class="comment">// 栈顶初始化为NULL</span></span><br><span class="line"><span class="type">int</span> SLIDE = <span class="number">1000</span>;</span><br><span class="line"></span><br><span class="line"><span class="type">void</span> <span class="title function_">push</span><span class="params">(Node **top_ptr, Node *n)</span> &#123;</span><br><span class="line">    n-&gt;next = *top_ptr;</span><br><span class="line">    *top_ptr = n;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="type">void</span> <span class="title function_">safe_push</span><span class="params">(Node **top_ptr, Node *n)</span> &#123;</span><br><span class="line">    pthread_mutex_lock(&amp;lock);</span><br><span class="line">    push(top_ptr, n);</span><br><span class="line">    pthread_mutex_unlock(&amp;lock);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">Node *<span class="title function_">pop</span><span class="params">(Node **top_ptr)</span> &#123;</span><br><span class="line">    <span class="keyword">if</span> (*top_ptr == <span class="literal">NULL</span>) &#123;</span><br><span class="line">        <span class="keyword">return</span> <span class="literal">NULL</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    Node *p = *top_ptr;</span><br><span class="line">    *top_ptr = (*top_ptr)-&gt;next;</span><br><span class="line">    <span class="keyword">return</span> p;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="type">void</span>* <span class="title function_">thread_function</span><span class="params">(<span class="type">void</span> *arg)</span> &#123;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">for</span>(<span class="type">int</span> i = <span class="number">0</span>; i &lt; SLIDE; i++) &#123;</span><br><span class="line">        Node *new_node = (Node*)<span class="built_in">malloc</span>(<span class="keyword">sizeof</span>(Node));</span><br><span class="line">        new_node-&gt;value = *(<span class="type">int</span>*)arg * SLIDE + i;</span><br><span class="line"></span><br><span class="line">        <span class="keyword">if</span> (new_node == <span class="literal">NULL</span>) &#123;</span><br><span class="line">            perror(<span class="string">&quot;Failed to allocate memory for new node&quot;</span>);</span><br><span class="line">            pthread_exit(<span class="literal">NULL</span>);</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        safe_push(&amp;top, new_node); <span class="comment">// 可以把这句换成普通的push，感受一下非线程安全的结果</span></span><br><span class="line">    &#125;</span><br><span class="line">    pthread_exit(<span class="literal">NULL</span>);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">()</span> &#123;</span><br><span class="line">    <span class="type">pthread_t</span> threads[<span class="number">10</span>];</span><br><span class="line">    <span class="type">int</span> thread_args[<span class="number">10</span>];</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">    <span class="comment">// 初始化互斥锁</span></span><br><span class="line">    <span class="keyword">if</span> (pthread_mutex_init(&amp;lock, <span class="literal">NULL</span>) != <span class="number">0</span>) &#123;</span><br><span class="line">        <span class="built_in">printf</span>(<span class="string">&quot;\n mutex init failed\n&quot;</span>);</span><br><span class="line">        <span class="keyword">return</span> <span class="number">1</span>;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="comment">// 创建线程</span></span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">0</span>; i &lt; <span class="number">10</span>; i++) &#123;</span><br><span class="line">        thread_args[i] = i;</span><br><span class="line">        <span class="keyword">if</span> (pthread_create(&amp;threads[i], <span class="literal">NULL</span>, thread_function, (<span class="type">void</span> *)&amp;thread_args[i])) &#123;</span><br><span class="line">            perror(<span class="string">&quot;Failed to create the thread&quot;</span>);</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="comment">// 等待线程结束</span></span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">0</span>; i &lt; <span class="number">10</span>; i++) &#123;</span><br><span class="line">        pthread_join(threads[i], <span class="literal">NULL</span>);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="comment">// 销毁互斥锁</span></span><br><span class="line">    pthread_mutex_destroy(&amp;lock);</span><br><span class="line"></span><br><span class="line">    <span class="comment">// print</span></span><br><span class="line">    Node *current = top;</span><br><span class="line">    <span class="type">int</span> count = <span class="number">0</span>;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;content of stack:\n&quot;</span>);</span><br><span class="line">    <span class="keyword">while</span> (current != <span class="literal">NULL</span>) &#123;</span><br><span class="line">        count++;</span><br><span class="line">        <span class="comment">//printf(&quot;%d\n&quot;, current-&gt;value);</span></span><br><span class="line">        current = current-&gt;next; <span class="comment">// 假设每个节点都有一个指向下一个节点的指针</span></span><br><span class="line">    &#125;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;count = %d\n&quot;</span>, count);</span><br><span class="line"></span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p><img src="https://ycnw11in464y.feishu.cn/space/api/box/stream/download/asynccode/?code=ZmNlYmQ0YTg1N2QyYjFjYWYzZWNjOGQ2ZTNlZDU1ZjFfRkRTclhZWW4xWmJsd3JnYVlGODMxcFMzb1FrY09tUnFfVG9rZW46RGI0S2JxbmI5b0JLclB4clN5d2NQdjg3bnNiXzE3NDU5ODE1NDU6MTc0NTk4NTE0NV9WNA" alt="img"></p>
+<ul>
+<li>作业要求：改造以上代码，不使用锁，只使用原子操作，写出线程安全的链表(包括append, pop）<ul>
+<li>提交时上传append pop两个函数的代码</li>
+</ul>
+</li>
+</ul>
+]]></content>
+      <tags>
+        <tag>操作系统</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>未选择的路</title>
+    <url>/2025/04/30/%E6%9C%AA%E9%80%89%E6%8B%A9%E7%9A%84%E8%B7%AF/</url>
+    <content><![CDATA[<blockquote>
+<p>Two roads diverged in a yellow wood,</p>
+</blockquote>
+<blockquote>
+<p>And sorry I could not travel both</p>
+</blockquote>
+<blockquote>
+<p>And be one traveler, long I stood</p>
+</blockquote>
+<blockquote>
+<p>And looked down one as far as I could</p>
+</blockquote>
+<blockquote>
+<p>To where it bent in the undergrowth;</p>
+</blockquote>
+<p>黄色的树林里分出两条路，</p>
+<p>可惜我不能同时去涉足，</p>
+<p>我在那路口久久伫立，</p>
+<p>我向着一条路极目望去，</p>
+<p>直到它消失在丛林深处。</p>
+<blockquote>
+<p>Then took the other, as just as fair,</p>
+</blockquote>
+<blockquote>
+<p>And having perhaps the better claim,</p>
+</blockquote>
+<blockquote>
+<p>Because it was grassy and wanted wear;</p>
+</blockquote>
+<blockquote>
+<p>Though as for that the passing there</p>
+</blockquote>
+<blockquote>
+<p>Had worn them really about the same,</p>
+</blockquote>
+<p>但我却选了另外一条路，</p>
+<p>它荒草萋萋，十分幽寂，</p>
+<p>显得更诱人、更美丽；</p>
+<p>虽然在这两条小路上，</p>
+<p>都很少留下旅人的足迹；</p>
+<blockquote>
+<p>And both that morning equally lay</p>
+</blockquote>
+<blockquote>
+<p>In leaves no step had trodden black.</p>
+</blockquote>
+<blockquote>
+<p>Oh, I kept the first for another day!</p>
+</blockquote>
+<blockquote>
+<p>Yet knowing how way leads on to way,</p>
+</blockquote>
+<blockquote>
+<p>I doubted if I should ever come back.</p>
+</blockquote>
+<p>虽然那天清晨落叶满地，</p>
+<p>两条路都未经脚印污染。</p>
+<p>呵，留下一条路等改日再见！</p>
+<p>但我知道路径延绵无尽头，</p>
+<p>恐怕我难以再回返。</p>
+<blockquote>
+<p>I shall be telling this with a sigh</p>
+</blockquote>
+<blockquote>
+<p>Somewhere ages and ages hence:</p>
+</blockquote>
+<blockquote>
+<p>Two roads diverged in a wood,and I—</p>
+</blockquote>
+<blockquote>
+<p>I took the one less traveled by,</p>
+</blockquote>
+<blockquote>
+<p>And that has made all the difference.</p>
+</blockquote>
+<p>也许多少年后在某个地方，</p>
+<p>我将轻声叹息把往事回顾：</p>
+<p>一片树林里分出两条路，</p>
+<p>而我选了人迹更少的一条，</p>
+<p>从此决定了我一生的道路。</p>
+]]></content>
+      <tags>
+        <tag>小记</tag>
+      </tags>
+  </entry>
 </search>
